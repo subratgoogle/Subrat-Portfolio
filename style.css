@@ -75,7 +75,7 @@ img{
     background: var(--main-red);
     box-sizing: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
-    height: 7rem;
+    height: 9rem;
 }
 .nav-list{
     display: flex;
@@ -91,8 +91,9 @@ img{
 }
 .nav-list a{
     display: block;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     padding: 2rem;
+    font-weight: 500;
 }
 .nav-list a:hover{
     background: var(--main-blue);
@@ -104,7 +105,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 width: 100%;
-height: 100vh;
+height: 60vh;
 
 
 }
@@ -115,10 +116,11 @@ background-repeat: no-repeat;
 width: 100%;
 background-size: cover;
 background-position: center;
+margin-top: 100px;
 }
 .welcome-section > p {
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 4rem;
+    font-weight: 300;
     font-style: italic;
     color: var(--main-red);
 }
